@@ -1,0 +1,659 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+New");
+@import url("https://fonts.googleapis.com/css2?family=Lato");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+body {
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+.name {
+    float: right;
+    padding: 8px;
+    margin-right: 16px;
+    margin-top: 40px;
+    opacity: 55%;
+}
+.name a {
+    color: #222222;
+    text-transform: uppercase;
+    font-family:'Lato';
+    font-style:normal;
+    font-weight:400;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    opacity:1;
+    text-decoration: none;
+    transition: opacity 1s;
+}
+.app_title {
+    color: lightslategray;
+    position: relative;
+    font-style: 'Courier New, light';
+    font-size: 14px;
+    vertical-align: baseline;
+    font-weight:200px;
+    float: left;
+    left: 38%;
+    top: 10px;
+    line-height: 17px;
+    word-spacing: 6px;
+}
+.first_image{
+    float: left;
+    position: absolute;
+    z-index: 0;
+    left: 30%;
+    top: 30%;
+}
+.second_image{
+    float: left;
+    position: absolute;
+    width: 50%;
+    left: 20%;
+    top: 35%
+}
+.header_text{
+    color: #43CC99;
+    text-transform: uppercase;
+    font-family:'Alegrya';
+    font-style:normal;
+    font-weight:400;
+    font-size: 50px;
+    z-index: -4;
+    z-index: 100;
+    position: relative;
+    float: left;
+    top: 500px;
+    left: 50px;
+}
+.poem_one{
+    color: #000;
+    font-family: 'courier new';
+    font-size: 15px;
+    width: 50px;
+    position: absolute;
+    float: left;
+    left: 87%;
+    top: 400px;
+}
+.friends1 {
+    position: absolute;
+    top: 920px;
+    left: 29%;
+    z-index: 100;
+}
+.friends2 {
+    position: absolute;
+    top: 1373px;
+    left: 29%;
+    z-index: 100;
+}
+.friends3 {
+    position: absolute;
+    top: 1826px;
+    left: 29%;
+}
+.flower1 {
+    position: absolute;
+    top: 2200px;
+    left: 29%;
+    z-index: 100;
+}
+.flower2 {
+    position: absolute;
+    top: 2200px;
+    left: -13%;
+    z-index: 100;
+}
+.highway {
+    position: absolute;
+    top: 2200px;
+    left: 65%;
+}
+.ran {
+    color: #c7b39a;
+    font-family:'Alegrya';
+    font-size: 60px;
+    position: absolute;
+    top: 2650px;
+    left: 38%;
+    z-index: 100;
+}
+.run1 {
+    position: absolute;
+    top: 2650px;
+    left: 30%;
+}
+.run2 {
+    position: absolute;
+    top: 3110px;
+    left: 31%;
+}
+.run3 {
+    position: absolute;
+    top: 3565px;
+    left: 35%;
+}
+.realign {
+    position: absolute;
+    top: 4020px;
+    left: 10%;
+}
+.oscar {
+    color: darkseagreen;
+    position: absolute;
+    font-family:'Alegrya';
+    font-size: 45px;
+    left: 3%;
+    top: 4205px;
+    width: 1030px;
+}
+.oscar2 {
+    color: coral;
+    position: absolute;
+    font-family:'Alegrya';
+    font-size: 60px;
+    left: 35%;
+    top: 4750px;
+    width: 1310px;
+    z-index: 100;
+}
+.reform1 {
+    position: absolute;
+    top: 4890px;
+    left: 33%;
+}
+.reform2 {
+    position: absolute;
+    top: 5350px;
+    left: 33%;
+}
+.reform2 {
+    position: absolute;
+    top: 5350px;
+    left: 33%;
+}
+.reform3 {
+    position: absolute;
+    top: 5810px;
+    left: 31%;
+}
+.reform4 {
+    position: absolute;
+    top: 6260px;
+    left: 31%;
+}
+.reform5 {
+    position: absolute;
+    top: 6700px;
+    left: 31%;
+}
+.reform6 {
+    position: absolute;
+    top: 7160px;
+    left: 32%;
+}
+.reform7 {
+    position: absolute;
+    top: 7560px;
+    left: 32%;
+}
+.reform8 {
+    position: absolute;
+    top: 8000px;
+    left: 40%;
+    z-index: 100;
+}
+.reform9 {
+    position: absolute;
+    top: 8200px;
+    left: 32%;
+}
+.reform10 {
+    position: absolute;
+    top: 8100px;
+    left: 7%;
+}
+.facing {
+    position: absolute;
+    color: orangered;
+    position: absolute;
+    font-family:'Alegrya';
+    font-size: 50px;
+    width: 400px;
+    word-spacing: 2px;
+    top: 8300px;
+    left: 70%;
+    z-index: 100;
+}
+.reform11 {
+    position: absolute;
+    top: 8950px;
+    left: 40%;
+    z-index: 100;
+}
+.reform12 {
+    position: absolute;
+    top: 9350px;
+    left: 32%;
+}
+.reform13 {
+    position: absolute;
+    top: 9850px;
+    left: 47%;
+}
+.reform14 {
+    position: absolute;
+    top: 9550px;
+    left: 17%;
+}
+.reform15 {
+    position: absolute;
+    top: 10100px;
+    left: 2%;
+}
+.reform16 {
+    position: absolute;
+    top: 10475px;
+    left: 3%;
+    z-index: 100;
+}
+.reform17 {
+    position: absolute;
+    top: 10490px;
+    left: 24%;
+    z-index: 100;
+}
+.reform18 {
+    position: absolute;
+    top: 10490px;
+    left: 64%;
+    z-index: 100;
+}
+.dark1 {
+    position: absolute;
+    top: 10550px;
+    left: 47%;
+    z-index: 100;
+}
+.dark2 {
+    position: absolute;
+    top: 10900px;
+    left: 47%;
+    z-index: 100;
+}
+.dark3 {
+    position: absolute;
+    top: 10950px;
+    left: 20%;
+    z-index: 50;
+}
+
+.dark4 {
+    position: absolute;
+    top: 11470px;
+    left: 10%;  
+}
+.dark_text1 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    text-transform: uppercase;
+    width: auto;
+    font-size: 55px;
+    word-spacing: 10px;
+    top: 11500px;
+    left: 10%;
+    z-index: 100;
+}
+.dark_text2 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    width: auto;
+    font-size: 12px;
+    word-spacing: 10px;
+    top: 11700px;
+    left: 25%;
+    z-index: 100;
+}
+.dark_text3 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    width: auto;
+    font-size: 9px;
+    word-spacing: 10px;
+    top: 11700px;
+    left: 25%;
+    z-index: 100;
+}
+.dark_text4 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    width: auto;
+    font-size: 9px;
+    word-spacing: 10px;
+    top: 11780px;
+    left: 35%;
+    z-index: 100;
+}
+.dark_text5 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    width: auto;
+    font-size: 9px;
+    word-spacing: 10px;
+    top: 11780px;
+    left: 55%;
+    z-index: 100;
+}
+.dark5 {
+    position: absolute;
+    float: left;
+    top: 10960px;
+    left: 7%;
+    z-index: 100;
+}
+.dark6 {
+    position: absolute;
+    float: left;
+    top: 12100px;
+    left: 19%;
+    z-index: 100;
+}
+.dark7 {
+    position: absolute;
+    float: left;
+    top: 12100px;
+    left: 52%;
+    z-index: 100;
+}
+.decision1 {
+    position: absolute;
+    color: dimgrey;
+    font: 'lato';
+    width: auto;
+    font-size: 55px;
+    word-spacing: 10px;
+    top: 12500px;
+    left: 10%;
+    z-index: 100;
+}
+.decision2 {
+    position: absolute;
+    color: #000;
+    font: 'lato';
+    width: auto;
+    font-size: 15px;
+    word-spacing: 10px;
+    top: 12600px;
+    left: 65%;
+    z-index: 100;
+}
+.decision3 {
+    position: absolute;
+    color: #000;
+    font: 'lato';
+    width: auto;
+    font-size: 50px;
+    word-spacing: 10px;
+    top: 12600px;
+    left: 65%;
+    z-index: 100;
+}
+.decision4 {
+    position: absolute;
+    color: #000;
+    font: 'lato';
+    width: 950px;
+    font-size: 16px;
+    top: 12875px;
+    left:18%;
+}
+.newyork1 {
+    position: absolute;
+    float: left;
+    top: 13150px;
+    left: 52%;
+    z-index: 100;
+}
+.newyork8 {
+    position: absolute;
+    float: left;
+    top: 13150px;
+    left: 22%;
+    z-index: 100;
+}
+.newyork2 {
+    position: absolute;
+    float: left;
+    top: 13650px;
+    left: 52%;
+    z-index: 100;
+}
+.newyork3 {
+    position: absolute;
+    float: left;
+    top: 13650px;
+    left: 22%;
+    z-index: 100;
+}
+.newyork4 {
+    position: absolute;
+    float: left;
+    top: 14070px;
+    left: 22%;
+    z-index: 100;
+}
+.newyork5 {
+    position: absolute;
+    float: left;
+    top: 14070px;
+    left: 52%;
+    z-index: 100;
+}
+.newyork7 {
+    position: absolute;
+    float: left;
+    top: 14620px;
+    left: 22%;
+    z-index: 100;
+}
+.newyork6 {
+    position: absolute;
+    float: left;
+    top: 14620px;
+    left: 52%;
+    z-index: 100;
+}
+.london1 {
+    position: absolute;
+    float: left;
+    top: 15000px;
+    left: 32%;
+}
+.london2 {
+    position: absolute;
+    float: left;
+    top: 15500px;
+    left: 30%;
+}
+.london3 {
+    position: absolute;
+    float: left;
+    top: 15850px;
+    left: 26%;
+    z-index: 100;
+}
+.london4 {
+    position: absolute;
+    float: left;
+    top: 15850px;
+    left: 53%;
+    z-index: 100;
+}
+.london5 {
+    position: absolute;
+    float: left;
+    top: 16350px;
+    left: 30%;
+}
+.london6 {
+    position: absolute;
+    float: left;
+    top: 16815px;
+    left: 30%;
+    z-index: 100;
+}
+.london7 {
+    position: absolute;
+    float: left;
+    top: 16815px;
+    left: 51%;
+}
+.praha1 {
+    position: absolute;
+    float: left;
+    top: 17365px;
+    left: 30%;
+}
+.praha2 {
+    position: absolute;
+    float: left;
+    top: 17505px;
+    left: 12%;
+}
+.praha3 {
+    position: absolute;
+    float: left;
+    top: 17505px;
+    left: 67%;
+}
+.praha4 {
+    position: absolute;
+    float: left;
+    top: 17965px;
+    left: 30%;
+}
+.berlin1 {
+    position: absolute;
+    float: left;
+    top: 18450px;
+    left: 30%;
+}
+.berlin2 {
+    position: absolute;
+    float: left;
+    top: 18940px;
+    left: 30%;
+}
+.berlin3 {
+    position: absolute;
+    float: left;
+    top: 19420px;
+    left: 40%;
+}
+.berlin4 {
+    position: absolute;
+    float: left;
+    top: 19850px;
+    left: 44%;
+}
+.spain1 {
+    position: absolute;
+    float: left;
+    top: 20325px;
+    left: 44%;
+}
+.spain2 {
+    position: absolute;
+    float: left;
+    top: 20750px;
+    left: 44%;
+}
+.spain3 {
+    position: absolute;
+    float: left;
+    top: 21155px;
+    left: 47%;
+}
+.spain4 {
+    position: absolute;
+    float: left;
+    top: 21565px;
+    left: 37%;
+    z-index: 100;
+}
+.me {
+    position: absolute;
+    float: left;
+    top: 22600px;
+    left: 15%;
+}
+.ending {
+    position: absolute;
+    color: #000;
+    font: 'lato';
+    width: 900px;
+    font-size: 25px;
+    word-spacing: 10px;
+    top: 21930px;
+    left: 20%;
+}
+.ending1 {
+    position: absolute;
+    color: #FFF;
+    font: 'lato';
+    opacity: 50%;
+    width: 900px;
+    font-size: 40px;
+    word-spacing: 10px;
+    top: 22830px;
+    left: 20%;
+    z-index: 100;
+}
+.v2 {
+    position: absolute;
+    top: 750px;
+    float: left;
+    opacity: 95%;
+}
+.v1 {
+    position: absolute;
+    float: left;
+    top: 22165px;
+    left: 10%;
+}
+.v3 {
+    position: absolute;
+    float: left;
+    top: 22165px;
+    left: 50%;
+}
+.remarks {
+    position: absolute;
+    color: #000;
+    font: 'lato';
+    opacity: 85%;
+    width: 900px;
+    font-size: 30px;
+    word-spacing: 10px;
+    top: 23630px;
+    left: 20%;
+    z-index: 100;
+}
